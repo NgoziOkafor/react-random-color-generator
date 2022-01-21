@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+  display: inline-block;
+  border: none;
+  margin: 6px 4px;
+  cursor: pointer;
+  font-size: 18ppx;
+  color: black;
+  border: 3px solid red border-radius 5px;
+}
+
+button:hover {
+  transition: ease-in 0.3s;
+  background-color: blue;
+}
