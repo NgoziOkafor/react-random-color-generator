@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function App() {
   const [hex, setHex] = useState('#ffffff');
@@ -8,11 +8,6 @@ function App() {
     setHex(randomColor);
   };
 
-  console.log('The generated color now: ', hex);
-
-  useEffect(() => {
-    randomizedHex();
-  }, []);
   return (
     <div
       className="Container"
