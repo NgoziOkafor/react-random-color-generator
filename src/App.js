@@ -16,7 +16,7 @@ function App() {
       }}
     >
       <div style={{ backgroundColor: hex }}>
-        Generated Color
+        Generated Color:
         <h1>{hex}</h1>
       </div>
 
