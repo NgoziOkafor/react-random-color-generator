@@ -1,11 +1,15 @@
 import { useState } from 'react';
 
 function App() {
-  const [hex, setHex] = useState('#ffffff');
+  const [hex, setHex] = useState('');
+
   const randomizedHex = () => {
     const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
     setHex(randomColor);
   };
+
+  console.log('The generated color now: ', hex);
+
   return (
     <div
       className="Container"
