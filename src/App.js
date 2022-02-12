@@ -16,10 +16,8 @@ function App() {
       }}
     >
       <h1>{hex}</h1>
-      <button onClick={randomizedHex}>Randomize</button>
-      <button onClick={() => navigator.clipboard.copyText(hex)}>
-        Copy Color
-      </button>
+      <button onClick={randomizedHex}>Generate</button>
+
     </div>
   );
 }
