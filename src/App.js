@@ -10,7 +10,7 @@ function App() {
     <div
       className="Container"
       style={{
-        backgroundColor: `${hex}`,
+        backgroundColor: hex,
         minHeight: '35.34vh',
         zoom: 4,
       }}
