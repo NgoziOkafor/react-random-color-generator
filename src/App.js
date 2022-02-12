@@ -18,9 +18,7 @@ function App() {
       }}
     >
       Generated Color: {hex}
-      <div>
-        <button onClick={randomizedHex}>Generate</button>
-      </div>
+      <button onClick={randomizedHex}>Generate</button>
     </div>
   );
 }
