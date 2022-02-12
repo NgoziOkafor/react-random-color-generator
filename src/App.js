@@ -15,10 +15,7 @@ function App() {
         zoom: 4,
       }}
     >
-      <div style={{ backgroundColor: hex }}>
-        Generated Color:
-        <h1>{hex}</h1>
-      </div>
+      <div style={{ backgroundColor: hex }}>Generated Color: {hex}</div>
 
       <button onClick={randomizedHex}>Generate</button>
     </div>
