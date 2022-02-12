@@ -17,7 +17,6 @@ function App() {
     >
       <h1>{hex}</h1>
       <button onClick={randomizedHex}>Generate</button>
-
     </div>
   );
 }
