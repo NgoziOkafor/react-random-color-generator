@@ -14,7 +14,6 @@ function App() {
       style={{
         backgroundColor: hex,
         minHeight: '35.34vh',
-        zoom: 4,
       }}
     >
       <div style={{ backgroundColor: hex }}>Generated Color: {hex}</div>
